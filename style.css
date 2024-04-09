@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  a {
+    color: blue;
+  }
+
+  .google {
+    padding-top: 0.5rem;
+  }
+
+  .google-center {
+    width: 89vw;
+    margin: 0 auto;
+  }
+
+  .google-img {
+    width: 360px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ 
+
+  .search-engine {
+    display: grid;
+    text-align: center;
+    margin-bottom: 0.1rem;
+  }
+  .search-engine-container {
+    background-color: #eeeeee;
+  }
+  .search-text {
+    font-size: 16px;
+  }
+  .search-input {
+    height: 1.45rem;
+    padding-left: 0.1rem;
+  }
+  
+  
+  .links-center {
+    display: grid;
+    grid-template-columns: 37fr 20fr 43fr;
+    grid-template-rows: 1fr;
+    column-gap: 0.1rem;
+  }
+  .left-side {
+    background-color: #7ee5da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-side-center {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .middle-side {
+    background-color: #70ccc2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .middle-side-center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+    font-size: 0.8rem;
+  }
+  .right-side {
+    background-color: #62b3aa;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+  .sub-input::placeholder {
+    color: black;
+  }
+
+  
+  .copyright-text {
+ 
+    font-size: 0.85rem;
+  }
+  .copyright-text {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+ 
+  
+  .search-btn {
+    padding: 1.5px 6px;
+    font-size: 0.85rem;
+  }
+  .lucky-btn {
+    font-size: 0.85rem;
+    padding: 1px 6px;
+  }
+  .sub-btn {
+    font-size: 0.85rem;
+    padding: 1px 6px;
+    margin: 0.1rem 0.5rem 0 auto;
+  }
+ 
